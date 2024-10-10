@@ -101,7 +101,7 @@
     display: flex;
     color: white;
     padding-top: 250px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 900;
 }
 
@@ -115,7 +115,7 @@
 .content-banner h3 {
     display: flex;
     color: 	#D3D3D3;
-    font-size: 40px ;
+    font-size: 30px ;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 600;
