@@ -7,11 +7,15 @@
 }
 
 .header{
-    color: #BD9E28;
+    color: #ffd700;
     margin-top: 20px;
     font-size: 30px;
     font-weight: 800;
 }
+.img-lg {
+    width: 100px;
+    height: auto;
+  }
 
 .btn-click{
     color: white !important;
@@ -42,7 +46,7 @@
 }
 
 .navbar i{
-    color: #BD9E28;
+    color: #ffd700;
     font-size: 30px;
 }
 
@@ -55,8 +59,8 @@
 }
 
 .nav-list .items-list a:hover {
-    border-bottom: 2px solid #BD9E28;
-    color: #BD9E28;
+    border-bottom: 2px solid #ffd700;
+    color: #ffd700;
 }
 
 @media (max-width: 991.98px) {
@@ -97,12 +101,12 @@
     display: flex;
     color: white;
     padding-top: 250px;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 900;
 }
 
 .content-banner span{
-    color: #BD9E28;
+    color: #ffd700;
     font-size: 40px;
     margin-left: 5px;
     font-weight: 900;
@@ -111,7 +115,7 @@
 .content-banner h3 {
     display: flex;
     color: 	#D3D3D3;
-    font-size: 20px ;
+    font-size: 40px ;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 600;
@@ -127,7 +131,7 @@
 
 
 .section-contact{
-    background: #BD9E28;
+    background: #ffd700;
     padding: 30px;
     color: #1C1C1C;
     font-size: 25px;
@@ -138,7 +142,7 @@ content card - serviços
 **********************/
 
 .content-card h2, .content-contact-form h2, .content-plans h2{
-    color: #BD9E28;
+    color: #ffd700;
     font-size: 50px;
     margin-bottom: 100px;
     font-weight: 900;
@@ -177,7 +181,7 @@ content card - serviços
 }
 
 .content-card .card{
-    background-color: #BD9E28 !important;
+    background-color: #ffd700 !important;
     color: white;
 }
 
@@ -191,7 +195,7 @@ content card - serviços
 }
 
 .card-plans{
-    background-color: #BD9E28 !important;
+    background-color: #ffd700 !important;
     padding: 30px;
     margin-bottom: 20px;
     transition: all 2s;
@@ -267,7 +271,7 @@ content card - serviços
 }
 
 .form_contato label{
-    color: #BD9E28;
+    color: #ffd700;
     font-size: 15px;
 }
 
@@ -309,7 +313,7 @@ content card - serviços
 
 
 .content-footer h2{
-    color: #BD9E28;
+    color: #ffd700;
     font-size: 20px;
 }
 
