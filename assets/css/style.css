@@ -78,6 +78,7 @@
     .content-banner {
         background: url('../img/banner.jpg') no-repeat center;
         height: 95vh;
+        background-image: none;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -163,7 +164,7 @@ content card - serviços
 }
 
 .content-card p, .content-plans p{
-    color: #54545F;
+    color: white;
     margin-bottom: 100px;
 }
 
@@ -216,7 +217,7 @@ content card - serviços
 
 .card-plans h4{
     font-size: 20px;
-    color: #D3D3D3;
+    color: black;
     padding-bottom: 30px;
     font-weight: 600;
 }
@@ -237,15 +238,22 @@ content card - serviços
   
 .card-plans p{
     font-size: 20px;
-    color: white;
+    color: rgb(240, 235, 235);
     font-weight: 300;
     margin-bottom: 5px !important;
     font-weight: 700;
+    text-shadow: 
+        1px 1px 0px black,   /* Sombra para baixo à direita */
+        -1px 1px 0px black,  /* Sombra para baixo à esquerda */
+        1px -1px 0px black,  /* Sombra para cima à direita */
+        -1px -1px 0px black; /* Sombra para cima à esquerda */
+
+
 }
 
 .observacao{
     font-size: 15px !important;
-    color: #171717 !important;
+    color: white !important;
     padding: 20px;
 }
     
@@ -262,7 +270,7 @@ content card - serviços
 }
 
 .content-contact-form p{
-    color: #54545F;
+    color: white;
     margin-bottom: 100px;
 }
 
@@ -336,3 +344,5 @@ hr {
     color: white;
     font-size: 15px;
 }
+
+

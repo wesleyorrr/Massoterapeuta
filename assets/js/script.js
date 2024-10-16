@@ -49,4 +49,10 @@ $(document).ready(function() {
         var posicao = $("#contato").offset().top;
         $("html, body").animate({ scrollTop: posicao }, 500);
     });
+  
+
 });
+
+
+
+
