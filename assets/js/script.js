@@ -49,7 +49,16 @@ $(document).ready(function() {
         var posicao = $("#contato").offset().top;
         $("html, body").animate({ scrollTop: posicao }, 500);
     });
-  
+
+    document.getElementById('planCard').addEventListener('click', function() {
+        window.location.href = 'https://drive.google.com/file/d/1B0-hinS2XLS2yaWKdzykncci-jXUBsqm/view?usp=sharing';
+    });
+    document.getElementById('planCard2').addEventListener('click', function() {
+        window.location.href = 'https://drive.google.com/file/d/1vQ1vt5e-cNIH-TQOTmhqIhP1a8BCu_yz/view?usp=sharing';
+    });
+    document.getElementById('planCard3').addEventListener('click', function() {
+        window.location.href = 'https://drive.google.com/file/d/1N0lK2vLD93rmjOiHRSvA7xShm_uXDwD2/view?usp=sharing';
+    });
 
 });
 
